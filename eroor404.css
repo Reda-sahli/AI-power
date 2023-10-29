@@ -1,0 +1,68 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+letter-spacing: 1.5px;
+text-decoration: none;
+text-align: none;
+list-style: none;}
+
+
+.page{
+   
+    width: 100%;
+    height: 100vh;}
+.eroor{
+    margin: auto;
+    width: 80%;
+    height: 600px;
+     background-color: white;
+   position: center;
+   margin-top: 60px;
+}
+.eroor h1 {width: 100%;
+      color: black; 
+    font-size: 150px;
+     font-family: Inter; 
+     font-weight: 700; 
+     word-wrap: break-word;
+    text-align: center;
+    }
+.eroor h2{
+    color: black;
+font-size: 60px;
+font-family: Inter;
+font-weight: 600;
+letter-spacing: 2.40px;
+word-wrap: break-word;
+text-align: center;
+}
+.eroor p{color: #959595;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 1.20px;
+    word-wrap: break-word;
+text-align: center;}
+button{
+    width:180px ; height:40px; background-color: #000000; border-radius: 50px;margin-top: 30px;}
+#btn01{  margin-left: 35%;}
+#btn01  a{         color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-wrap: break-word      }
+#btn02 a{
+    font-size: 15px;
+    color: white;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+    /*                 cOPIRAYHT                              */
+.bactotop{background-color: rgb(192, 192, 192);}
+.bactotop { color: #fff;font-size: 15px;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;}
+.cop{background-color: #838383;text-align: center;}
