@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1.5px;}
+.mane{
+    background-color: black;
+    background-image: url(img/2003.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    height:880px;}
+li,a,button{font-family:sans-serif ;
+    font-weight: 500px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;}
+header{
+    display: flex;
+    padding: 30px 10%;
+    align-items: center;
+    justify-content: space-between;}
+.logo{
+    cursor:pointer;
+    color: #ffffff;}
+.nav__links {
+    list-style: none;}
+.nav__links  li{
+    display: inline-block;
+    padding: 0px 20px;}
+.nav__links   li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;}
+.nav__links  li a:hover{
+    color: rgba(0, 0, 0, 0.845);}
+.singin{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;}
+
+.sing2{ 
+    padding-top: 30px;
+    margin: 100px auto;
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(6px);
+    border-radius: 30px;
+    background-position: -320px 120px ;}
+.sing2 h1{
+    color: rgb(226, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.sing2 h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 6px;
+    letter-spacing: 3px;
+    font-size: 18px;}
+
+input{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;}
+
+  .okk{
+        width: 200px;
+        height: 50px;
+        background-color: #000000;
+        color: #ffffff;
+        margin: 200px;
+        margin-top: 25px;
+       border-radius: 30px;}
+   /*                 copirayht                */
+.bactotop{background-color: rgb(0, 0, 0);}
+.bactotop a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:46%;}
+    .cop{background-color: #838383;text-align: center;}
+/*                              large            */
+@media  (min-width:1550px) {
+    .mane{background-color: #000000;background-image: none;}}
+ /*                                  ipd cordone                                       */
+
+
+
+ /*                                  phone cordone                                       */
+ @media  (max-width:440px){
+.singin{width: 90%;}
+.sing2{width: 80%;}
+.okk{margin-left: 50px;}
+   }

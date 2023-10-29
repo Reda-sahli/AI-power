@@ -1,0 +1,30 @@
+*{  box-sizing: border-box;  margin: 0px;   padding: 0px; letter-spacing: 1.5px; }
+.mane{   background-color: black;  background-image: url();  background-position: center ; background-repeat: no-repeat; height:880px;}
+li,a,button{font-family:sans-serif ;   font-weight: 500px;   font-size: 16px;   color: rgb(255, 255, 255);   text-decoration: none;}
+header{  display: flex;  padding: 30px 10%;  align-items: center;  justify-content: space-between;}
+.logo{   cursor:pointer; color: #ffffff;}
+.nav__links {  list-style: none;}
+.nav__links  li{ display: inline-block; padding: 0px 20px;}
+.nav__links   li a{  transition: all 0.3s ease 0s;  font-size: 20px;}
+.nav__links  li a:hover{  color: rgba(0, 0, 0, 0.845);}
+button{  font-size: 20px;   padding: 9px 25px;background-color: #000000; border: none;   border-radius: 50px;   cursor: pointer;transition: all 0.3s ease 0s;}
+button:hover{background-color: rgb(65, 65, 65);}
+.help h1{   color: #ffffff;   margin-left: 180px;   font-size: 60px;}
+.tatel{color: #ffffff;}
+.para1 p{  font-family:'Times New Roman', Times, serif ;   font-size: 80px;   border: 3px;   margin-left:   90px;   margin-top: 20px;   margin-bottom: 20px;}
+.para2 p{  font-family:'Times New Roman', Times, serif ;font-size: 80px;    border: 3px;   margin-left:   70px; margin-top: 20px; margin-bottom: 20px;}
+.para3 p{    font-family:'Times New Roman', Times, serif ;  font-size: 80px;   border: 3px; margin-left:   80px;  margin-top: 20px;margin-bottom: 20px;}
+.contact h1{   font-size: 80px;   font-family:'Times New Roman', Times, serif;  letter-spacing: 1.2px;   color: #ffffff;   margin-top: 50px;   padding-left: 6%;}
+.div_3{  width: 90%;   height: 100px;   background: transparent;   display: flex;   border-radius: 50px;   margin-left: 60px;   margin-top: 550px;    margin-bottom: 1px;}
+.div1{   height: 80px; width: 25%;   background-color: transparent;   border-radius: 50px;   margin-bottom: 10px;   margin-right: 10%;   margin-left: 30px;   border-radius: 50px;}
+.div1 p{   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    font-size: 20px;    color: #ffffff;    padding-left: 40px;    padding-top: 20px;   transition: all 0.3s ease 0s;}
+.div1 p:hover{color: rgba(0, 0, 0, 0.845);}
+.div2{  height: 80px;width: 25%;  background-color: transparent; border-radius: 50px; margin-bottom: 10px;  margin-right: 10%;}
+.div2 p{  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   font-size: 20px;   color: #ffffff;   padding-left: 22px;   padding-top: 20px;   transition: all 0.3s ease 0s;   }
+.div2 p:hover{     color: rgba(0, 0, 0, 0.845); }
+.div3{ height: 80px;width: 25%;background-color: transparent; border-radius: 50px;   margin-bottom: 10px; }
+.div3 p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   font-size: 20px;   color: #8e8e8e; padding-left: 40px; padding-top: 20px;padding-bottom: 10px; transition: all 0.3s ease 0s; font-size: 20px;}
+.div3 p:hover{ color: rgba(0, 0, 0, 0.845);} 
+    .bactotop{background-color: rgb(192, 192, 192);}
+    .bactotop {color: rgb(255, 255, 255);font-size: 15px;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;}
+    .cop{background-color: #838383;text-align: center;}

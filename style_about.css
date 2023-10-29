@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1.5px;}
+/*                                           bigen                  */ 
+.mane{
+ background-color: rgb(151, 202, 11);
+ background-image: url(img/ab212.jpg);
+ background-position: none;
+ background: cover;
+ background-repeat: no-repeat;width: 100%;  height: 1200px;}
+/*                                            nav bare                   */ 
+li,a{font-family:sans-serif ;  font-weight: 500px; font-size: 16px;  color: rgb(255, 255, 255);  text-decoration: none;}
+header{  display: flex; padding: 30px 10%;  align-items: center;  justify-content: space-between;}
+.logo{  cursor:pointer;  color: #ffffff;}
+.nav__links {  list-style: none;}
+.nav__links  li{ display: inline-block;padding: 0px 20px;}
+.nav__links   li a{ transition: all 0.3s ease 0s;  font-size: 20px;}
+.nav__links  li a:hover{  color: rgba(0, 0, 0, 0.845);}
+.btn1 button{ font-size: 20px;color: #fff;padding: 9px 25px; background-color:transparent; border: none; border-radius: 10px; cursor: pointer; transition: all 0.3s ease 0s;}
+.btn1 button:hover{ background-color: rgba(218, 218, 218, 0.465);}
+.btn2 button{ font-size: 20px;padding: 9px 25px;color: #fff; background-color:transparent; border: none; border-radius: 10px; cursor: pointer; transition: all 0.3s ease 0s;}
+.btn2 button:hover{background-color: rgba(218, 218, 218, 0.465);}
+.content h1{border: 2px #000000 solid;}
+.tatel{color: #ffffff;}
+/*                                        Firs cadr                                */ 
+.about-1 {width: 100%;height: 1000px;}
+.c-212{ width: 100%;height: 600px;;  margin: 44px auto;}
+.c-100{width: 100%;height: 400px;background-color: #f1f1f1;margin: 0px;padding-top: 30px;}
+.c-100 h1{color: rgb(0, 0, 0);font-size: 60px;font-family: Jacques Francois;font-weight: bold;letter-spacing: 7.04px;text-align: center;}
+.c-100 p{ margin: 90px;margin-top: 10px;margin-bottom: 20px;}
+
+
+
+         /*           Page 2                          */
+
+
+/*    --------------------------                       last page    --------------       */                                 
+.last{
+    width: 100%;
+    height: 400px;
+     background-color: #838383;
+     display: flex}
+.car1{background-color: #9c9c9c;
+width: 33%;
+height:400px ;
+margin-left: 0%;} 
+
+.car1 h3{
+    color: #000000;
+    font-family: sans-serif;
+    padding-left: 50%;
+   padding-top: 10%;}
+.car1 ul{
+    margin-top: 30px;
+    text-align: center;}
+.car1 a{
+    color: #bbbbbb;
+    padding-left: 30%;
+    margin-top: 20px;
+    line-height: 35px;}
+.car1 a:hover{
+    color: #ffffff;}
+.car1 h3:active{
+    color: #ffffff;}
+.car2{background-color: #9c9c9c;
+    width: 33%;
+    height:400px ;
+    margin-left:0% ;}
+.car2 h3{ color: #000000; font-family: sans-serif; padding-left: 50%;padding-top: 10%;}
+.car2 ul{  text-align: center; margin-top:30px;}
+.car2 ul li{  text-decoration: none; list-style: none;}
+.car2 a{  color: #bbbbbb;padding-left: 30%; margin-top: 20px; line-height: 35px;}
+.car2 a:hover{  color: #ffffff;}
+/* 000000000000000000000000000000000000000000000000000000000000000000000000000 */
+
+.car3{background-color: #9c9c9c;width: 34%;height:400px ;}
+.car3 h1{color: #000000;font-family: sans-serif;margin-left: 10%;padding-top: 10%;}
+.ss33{ font-size: 12px;width: 200px;height: 40px;color: #fff;font-weight: bold;
+    background-color:#000; border: none; border-radius: 10px; 
+    cursor: pointer; transition: all 0.3s ease 0s;}
+
+.group {position: relative;margin-left:50px;margin: 40px;}
+
+.input {font-size: 16px; padding: 10px 10px 10px 5px;display: block;width: 200px; border: none; border-bottom: 1px solid #515151;    background: transparent;   }
+.input:focus { outline: none; }
+label {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;}
+.input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #000000;}
+.bar {
+    position: relative;
+    display: block;
+    width: 200px;}
+
+.bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #000000;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;}   
+.bar:before {left: 50%;}
+.bar:after {right: 50%;}   
+.input:focus ~ .bar:before, .input:focus ~ .bar:after {width: 50%;}   
+.highlight { position: absolute;height: 60%;width: 100px;top: 25%;left: 0;pointer-events: none;opacity: 0.5;}
+button{width: 150px;}
+.input:focus ~ .highlight { animation: inputHighlighter 0.3s ease;}
+
+
+
+
+ /*                                                   fin page                  */ 
+ .bactotop{background-color: rgb(192, 192, 192);}
+ .bactotop {color: rgb(255, 255, 255);font-size: 15px;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;}
+ .cop{background-color: #838383;text-align: center;}
+ 
+ 
+ /*                         media               */
+
+/*             ipad px                    
+@media  (max-width:835px){
+
+
+    .c-212{ width: 100%;height: 500px;;  margin: 44px auto;}
+.c-100{width: 100%;height: 500px;background-color: #f1f1f1;margin: 0px;padding-top: 30px}
+.c-100 h1{color: rgb(0, 0, 0);font-size: 60px;font-family: Jacques Francois;font-weight: bold;letter-spacing: 7.04px;text-align: center;}
+.c-100 p{ margin: 90px;margin-top: 10px;margin-bottom: 20px;}
+}*/
+
+
+
+
+
+@media  (max-width:835px){
+    header nav ul li a{display: none;}
+
+    .c-212{ width: 100%;height: 300px;;  margin: 44px auto;}
+    .c-100{width: 100%;height: 800px;background-color: #f1f1f1;margin: 0px;padding-top: 30px}
+    .c-100 h1{color: rgb(0, 0, 0);font-size: 60px;font-family: Jacques Francois;font-weight: bold;letter-spacing: 7.04px;text-align: center;}
+    .c-100 p{ margin: 50px;margin-top: 10px;margin-bottom: 5px;line-height: 30px;font-weight: bold;}
+    .last{
+        width: 100%;
+        height: 1200px;
+         background-color: #838383;
+         display: block}
+    .car1{background-color: #9c9c9c;
+    width: 100%;
+    height:400px ;
+    margin-left: 0%;} 
+    .car2{background-color: #9c9c9c;
+        width: 100%;
+        height:400px ;
+        margin-left:0% ;}
+        .car3{background-color: #9c9c9c;
+            width: 100%;
+            height:400px ;
+            margin-left:0% ;position:center;}
+        .ss33{ font-size: 12px;width: 100px;height: 40px;color: #fff;font-weight: bold;
+             background-color:#000; border: none; border-radius: 10px; 
+             cursor: pointer; transition: all 0.3s ease 0s;}
+
+             .car3 h1{
+                padding-left: 0;}
+
+            .car1 a{
+                padding-left: 0;}
+                .car2 a{padding-left: 0;}
+           
+                        .car1 h3{
+                        text-align: center;
+                            padding-left: 0%;
+                           padding-top: 10%;}
+                           .car2 h3{
+                        text-align: center;
+                            padding-left: 0%;
+                           padding-top: 10%;}
+} 
+
+
+@media    (max-width:450px){
+    .btn1 button{ right: 3px;width: 90px;margin: 3px;font-size: 15px;padding: 9px 10px;  transition: all 0.3s ease 0s;}
+    .btn2 button{ width:90px;;margin:3px;font-size:15px;padding: 9px 10px; transition: all 0.3s ease 0s;}
+    .logo h1{  font-size: 25px;width: 60px;}
+    .c-100{height:900px;}
+    .c-100 p{ margin: 20px;margin-top: 10px;margin-bottom: 20px;font-size: 15px;line-height: 25px;}
+
+    .about-1 {width: 100%;height: 1200px;}
+    .c-212{ width: 100%;height: 300px;;  margin: 44px auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
